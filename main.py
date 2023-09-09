@@ -1,7 +1,7 @@
 # main.py
 # to start: uvicorn main:app --reload
 
-import helpers.time as time
+import services.time as time
 from fastapi import FastAPI
 
 app = FastAPI()
